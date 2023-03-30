@@ -37,15 +37,17 @@ what_to_wear(celsius)
 import math
 #importing math to use math.sqrt
 # area of A from its vertex coords using shoelace formula
+#1
 def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
     area = abs(x1*(y2-y3) + x2*(y3-y1) + x3*(y1-y2)) / 2
     return area
 
-
+#2
 def euclidean_distance(x1, y1, x2, y2):
     distance = math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
     return distance
 
+#3
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
     side1 = euclidean_distance(x1, y1, x2, y2)
     side2 = euclidean_distance(x2, y2, x3, y3)
@@ -60,16 +62,18 @@ def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
 
 import math
 #importing math to use math.pi
+#1
 def deg2rad(deg):
     return deg * math.pi / 180.0
 
 #theta for deg2rad 
+#2
 def apothem(number_sides, length_side):
     theta = deg2rad(360 / (2 * number_sides))
     return length_side / (2 * math.tan(theta))
 
 #apothem_length taken from the question #2
-
+#3
 def polygon_area(number_sides, length_side):
    perimeter = number_sides * length_side
    apothem_length = apothem(number_sides, length_side)
