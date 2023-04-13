@@ -1,8 +1,14 @@
 # Name: Minseo Kim
 # SBUID: 114665786
-
+##################### SCORE ######################
+#######  Score:  3/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
-
+# your output:
+# (base) D:\CSE 101 Ass1\Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27>D:/anaconda/python.exe "d:/CSE 101 Ass1/Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27/TehVilly/Homework_1.py"
+# Enter the temperature in Fahrenheit: 44
+# wear a sweater.
+# rest no answers returned 
 # ---------------------------- Exercise I ---------------------------------------
 # ----------------- Convert Fahrenheit to Celsius -------------------------------
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
